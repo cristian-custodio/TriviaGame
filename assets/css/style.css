@@ -1,11 +1,13 @@
 body {
     margin: 0 auto;
+    
 }
 
 h1 {
     text-align: center;
-    color: white;
+    color: blue;
     font-size: 80px;
+    padding-top: 50px;
 }
 
 h2 {
@@ -15,24 +17,25 @@ h2 {
 
 #Game-Body {
     margin: 0 auto;
-    background-color: teal;
-    width: 80%;
+    background-color: lightblue;
+    width: 90%;
+    padding-bottom: 50px;
 }
 
 #Seconds-Remaining {
     width:50%;
     margin: 0 auto;
     text-align: center;
-    color: white;
+    color: red;
     font-size: 40px;
     margin-bottom: 20px;
 }
 
-#Quiz-Results {
+.Quiz-Results {
     width:50%;
     margin: 0 auto;
     text-align: center;
-    color: white;
+    color: blue;
     font-size: 40px;
     margin-bottom: 20px;
 }
@@ -42,7 +45,17 @@ h2 {
     width:80%;
     margin: 0 auto;
     text-align: center;
-    color: white;
+    color: blue;
+    font-size: 50px;
+    padding:20px;
+    font-weight: 900;
+}
+
+.radioButtons {
+    width:80%;
+    margin: 0 auto;
+    text-align: center;
+    color: blue;
     font-size: 50px;
     padding:20px;
 }
@@ -51,7 +64,7 @@ h2 {
     width:80%;
     margin: 0 auto;
     text-align: center;
-    color: white;
+    color: blue;
     font-size: 50px;
     padding:20px;
 }
@@ -60,7 +73,7 @@ h2 {
     width:80%;
     margin: 0 auto;
     text-align: center;
-    color: white;
+    color: blue;
     font-size: 20px;
     padding:30px;
 }
